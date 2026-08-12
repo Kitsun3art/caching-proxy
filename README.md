@@ -31,3 +31,11 @@ Built as a solution for the [roadmap.sh Caching Server Project](https://roadmap.
 ## Usage
 
 caching-proxy --port 3000 --origin [https://dummyjson.com](https://dummyjson.com)
+
+## Clear Cache 
+
+caching-proxy --clear-cache
+
+## To Unlink
+
+npm unlink -g caching-proxy
